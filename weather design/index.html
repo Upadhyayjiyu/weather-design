@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Weather App</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="weather-container">
+    <div class="top-bar">
+      <input type="text" id="cityInput" placeholder="Enter city..."/>
+      <button id="searchBtn">Search</button>
+      <button id="modeToggle">🌙</button>
+    </div>
+    <div id="weatherAlert"></div>
+    <div class="current-weather">
+      <h1 id="cityName">-</h1>
+      <h2 id="temperature">- °C</h2>
+      <p id="details">Humidity: - | Wind: - km/h | Feels like: - °C</p>
+      <img id="weatherIcon" src="" alt="Weather Icon"/>
+    </div>
+    <div class="forecast" id="forecast"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
